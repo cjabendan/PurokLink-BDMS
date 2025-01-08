@@ -16,15 +16,15 @@ PurokLink is a comprehensive **Barangay Data Management System (BDMS)** designed
 - 🖨️ Generate and print barangay documents such as certifications and reports.
   - **⚠️ Note**: Generated documents, such as resident certifications, are for demonstration purposes only and are not official.
 
-### 3. ⚠️ Incident Reporting
+### 3. ⚠️ Incident Recording
 
 - 🚨 Add and view incident reports.
-- 📊 Admins can monitor incident statistics for actionable insights.
+- 📊 Users can view and download incident data for accurate record-keeping.
 
 ### 4. 🛡️ User Roles
 
 - **👩‍💼 Barangay Secretary**: Admins overseeing system data with the following capabilities:
-  - 💾 Download resident data.
+  - 💾 Download resident data (Certificates).
   - 📈 View population classifications and counts.
   - 📄 Generate PDF reports for all Purok residents or specific Puroks.
 - **👨‍⚖️ Purok Leaders**: Users managing resident and incident data and downloading reports.
@@ -33,10 +33,10 @@ PurokLink is a comprehensive **Barangay Data Management System (BDMS)** designed
 
 ## 🛠️ Technology Stack
 
-- **Frontend**: Java Swing (NetBeans) 🎨
-- **Backend**: Java ⚙️
-- **Database**: MySQL (via XAMPP) 🗄️
-- **Platform**: Desktop Application 🖥️
+- **Frontend**: Java Swing (NetBeans)
+- **Backend**: Java
+- **Database**: MySQL (via XAMPP)
+- **Platform**: Desktop Application
 
 ---
 
@@ -51,6 +51,7 @@ PurokLink is a comprehensive **Barangay Data Management System (BDMS)** designed
 2. **💻 Setup the Database:**
 
    - Open XAMPP and start MySQL.
+   - Create and name the database according to the name specified in the **`db`** folder. 
    - Import the provided SQL file into your database.
 
 3. **▶️ Run the Application:**
@@ -80,13 +81,13 @@ This project is currently incomplete, and the developer does not plan to continu
 
 ### 🥈 Phase 2: Enhancements
 
-- 🔐 Add user authentication with role-based access.
-- 📊 Design and integrate a dashboard for population statistics and classifications.
-- ⚡ Optimize database queries for faster performance.
+- ✅ Add user authentication with role-based access.
+- ✅ Design and integrate a dashboard for population statistics and classifications.
+- ✅ Optimize database queries for faster performance.
 
 ### 🥉 Phase 3: Advanced Features
 
-- 📈 Develop advanced reporting features, including export options for detailed analytics.
+- 📈 Develop advanced reporting features, including import options for detailed analytics.
 - 🔄 Add support for real-time syncing between multiple devices.
 - 📝 Include additional document templates for barangay certifications.
 
